@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="CSS/style.css">
   <title>Your Website</title>
@@ -35,28 +36,27 @@
 
   <div class="skills">
     <h2>Skills</h2>
-
-
-
     <div class="skills-container">
-      <div class="skill-section">
-        <img class="skill-picture" src="Images/Skill1.png" alt="User Research">
+      <div class="skill-section" id="skill-div-1">
+        <img class="skill-picture" src="Images/Skill1.png" alt="User Research" id="skill-img-1">
         <h3>User Research</h3>
         <p>User Research, Competitor Analysis, Personas, User Interviews, Empathy Mapping.</p>
       </div>
 
-      <div class="skill-section">
-        <img class="skill-picture" src="Images/Skill2.png" alt="Defination & ideation">
+      <div class="skill-section" id="skill-div-2">
+        <img class="skill-picture" src="Images/Skill2.png" alt="Defination & ideation" id="skill-img-2">
         <h3>Defination & Ideation</h3>
         <p>Problem Statement, Feature Prioritization, Value Preposition, Storyboards & Mood boards, User Flow,
           Wireframes.</p>
       </div>
 
-      <div class="skill-section">
-        <img class="skill-picture" src="Images/Skill3.png" alt="Prototyping & testing">
+      <div class="skill-section" id="skill-div-3">
+        <img class="skill-picture" src="Images/Skill3.png" alt="Prototyping & testing" id="skill-img-3">
         <h3>Prototyping & testing</h3>
         <p>Guerrilla User testing, High-fidelity Prototypes, Solution.</p>
       </div>
+
+      <button id="bring-back-button">Bring it back</button>
     </div>
 
 </body>
@@ -72,5 +72,5 @@
 </footer>
 
 </body>
-
+<script src="js/index.js"></script>
 </html>
